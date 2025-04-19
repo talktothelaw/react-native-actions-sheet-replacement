@@ -1,5 +1,18 @@
-import ActionsSheetReplacement from './NativeActionsSheetReplacement';
+import ActionSheet from './ActionSheet';
+import {
+  SheetManager,
+  SheetProvider,
+  registerSheet,
+  useSheetManager,
+} from './SheetManager';
+import type { ActionSheetProps, ActionSheetRef } from './types';
 
-export function multiply(a: number, b: number): number {
-  return ActionsSheetReplacement.multiply(a, b);
-}
+export {
+  ActionSheet,
+  SheetManager,
+  SheetProvider,
+  registerSheet,
+  useSheetManager,
+};
+
+export type { ActionSheetProps, ActionSheetRef };
