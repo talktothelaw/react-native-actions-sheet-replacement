@@ -4,7 +4,7 @@ A cross-platform (Android & iOS) ActionSheet component with a robust and flexibl
 
 **This is a drop-in replacement for [react-native-actions-sheet](https://github.com/ammarahm-ed/react-native-actions-sheet) by ammarahm-ed with additional features and improvements.**
 
-![ActionSheet Demo](https://via.placeholder.com/600x400.png?text=ActionSheet+Demo)
+![ActionSheet Demo](./demo.gif)
 
 ## Features
 
